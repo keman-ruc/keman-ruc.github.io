@@ -39,15 +39,31 @@ Email: [Keman@ruc.edu.cn](mailto:Keman@ruc.edu.cn)
 
 ### 2026
 
+- **AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation.** AAAI 2026. *(CCF A, Oral)*
+
+- **From Outcomes to Mechanisms: A Benchmark for Diagnosing LLM's Mechanism Hallucination on Data Inference Externalities.** KDD 2026. *(CCF A)*
+
+- **iRUC: Reducing Inter-Microservice Data Communication in Data-Intensive Systems via Unified Computation.** IEEE Trans. Software Engineering. *(CCF A)*
+
+- **Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems.** AAAI 2026. *(CCF A)*
+
 - 何佳妮，黄科满*，刘金飞，卢卫，范举，杜小勇. 机器学习模型市场的收益分配策略综述. **软件学报**, 2026.
 
 - 黄科满, 张鼎镇, 朱尧, 等. 数据领域标准术语冲突现状分析. **大数据**, 2026, 12(5): 150-171.
 
 ### 2025
 
+- **ISSF: An Intelligent Security Service Framework for Cloud-native Operations.** J. Web Engineering. *(CCF C)*
+
+- **Practically implementing an LLM-supported collaborative vulnerability remediation process: A team-based approach.** Computers & Security. *(CCF B, SCI Q1)*
+
 - 赵盈盈, 黄科满. 中国数据要素市场化路径优化研究——基于欧盟数据空间三维分析框架的比较. **数字化转型**, 2025, 2(8): 64-72+97.
 
 ### 2024
+
+- **The evolution of global cybersecurity norms in the digital age: A longitudinal study.** Information Security Journal. *(SSCI)*
+
+- **Mitigating the Data Communication Overhead in Microservice-based Data-intensive Systems.** ICWS 2024. *(CCF B)*
 
 - 黄科满, 许多, 杜小勇. 数据社会化视角下的数据流通安全治理: 五位一体框架. **大数据**, 2024.
 
@@ -56,5 +72,9 @@ Email: [Keman@ruc.edu.cn](mailto:Keman@ruc.edu.cn)
 - 杜小勇, 黄科满, 卢卫. 跨域数据治理. **中国人民大学出版社**, 2024.
 
 ### 2022
+
+- **Being a Solo Endeavor or Team Worker in Crowdsourcing Contests? It is a Long-term Decision You Need to Make.** Proc. ACM Hum.-Comput. Interact. *(CCF A)*
+
+- **Your Behaviors Reveal What You Need: A Practical Scheme Based on User Behaviors for Personalized Security Nudges.** Computers & Security. *(CCF B, SCI Q1)*
 
 - 黄科满, 杜小勇. 数据治理价值链模型与数据基础制度分析. **大数据**, 2022, 8(4): 3-16.
