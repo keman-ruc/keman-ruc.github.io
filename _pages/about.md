@@ -35,34 +35,8 @@ Email: [Keman@ruc.edu.cn](mailto:Keman@ruc.edu.cn)
 
 （待补充）
 
-## 近期发表
+## 精选发表
 
-### MIT Sloan Management Review
+[全部发表论文]({{ '/publications/' | relative_url }})
 
-- **Casting the Dark Web in a New Light.** MIT Sloan Management Review, 2019. *(FT50)*
-
-- **Design for Cybersecurity from the Start.** MIT Sloan Management Review, 2022. *(FT50)*
-
-### 2026
-
-- **AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation.** AAAI 2026. *(CCF A, Oral)*
-
-- **From Outcomes to Mechanisms: A Benchmark for Diagnosing LLM's Mechanism Hallucination on Data Inference Externalities.** KDD 2026. *(CCF A)*
-
-- **iRUC: Reducing Inter-Microservice Data Communication in Data-Intensive Systems via Unified Computation.** IEEE Trans. Software Engineering. *(CCF A)*
-
-- **Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems.** AAAI 2026. *(CCF A)*
-
-### 2025
-
-- **Practically implementing an LLM-supported collaborative vulnerability remediation process: A team-based approach.** Computers & Security. *(CCF B, SCI Q1)*
-
-### 2024
-
-- **Mitigating the Data Communication Overhead in Microservice-based Data-intensive Systems.** ICWS 2024. *(CCF B)*
-
-### 2022
-
-- **Being a Solo Endeavor or Team Worker in Crowdsourcing Contests?** Proc. ACM Hum.-Comput. Interact. *(CCF A)*
-
-- **Your Behaviors Reveal What You Need.** Computers & Security. *(CCF B, SCI Q1)*
+{% include publication-list.html selected=true heading_level=3 %}

@@ -1,0 +1,23 @@
+{%- comment -%}
+  The generated data is ordered by descending year and then author.
+  Both pages use this list so their citation text and access links stay in sync.
+{%- endcomment -%}
+{%- assign publication_items = site.data.publications -%}
+{%- if include.selected == true -%}
+  {%- assign publication_items = publication_items | where: "selected", true -%}
+{%- endif -%}
+{%- if include.preprint == true -%}
+  {%- assign publication_items = publication_items | where: "preprint", true -%}
+{%- else -%}
+  {%- assign publication_items = publication_items | where: "preprint", false -%}
+{%- endif -%}
+{%- assign publication_years = publication_items | group_by: "year" | sort: "name" | reverse -%}
+{%- assign publication_heading_level = include.heading_level | default: 2 -%}
+{% for publication_year in publication_years %}
+<h{{ publication_heading_level }} class="publication-year">{{ publication_year.name }}</h{{ publication_heading_level }}>
+<ul class="publication-list">
+{% for publication in publication_year.items %}
+{% include publication-citation.html publication=publication %}
+{% endfor %}
+</ul>
+{% endfor %}

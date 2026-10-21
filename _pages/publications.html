@@ -6,14 +6,13 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <p class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar | escape }}">my Google Scholar profile</a>.</p>
 {% endif %}
 
-{% include base_path %}
+{% include publication-list.html %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
-
+{% assign preprints = site.data.publications | where: "preprint", true %}
+{% if preprints.size > 0 %}
+<h2>Preprints</h2>
+{% include publication-list.html preprint=true heading_level=3 %}
+{% endif %}

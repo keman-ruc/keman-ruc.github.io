@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Shared Chicago bibliography lists on the homepage and publications page. */
+.publication-year {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+.publication-list {
+  margin: 0 0 1.5em;
+  padding-left: 1.25em;
+  list-style: disc outside;
+
+  .publication-citation {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    text-indent: -1em;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  .publication-access {
+    white-space: nowrap;
+  }
+}
