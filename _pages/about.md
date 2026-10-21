@@ -37,6 +37,12 @@ Email: [Keman@ruc.edu.cn](mailto:Keman@ruc.edu.cn)
 
 ## 近期发表
 
+### MIT Sloan Management Review
+
+- **Casting the Dark Web in a New Light.** MIT Sloan Management Review, 2019. *(FT50)*
+
+- **Design for Cybersecurity from the Start.** MIT Sloan Management Review, 2022. *(FT50)*
+
 ### 2026
 
 - **AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation.** AAAI 2026. *(CCF A, Oral)*
